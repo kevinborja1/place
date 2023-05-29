@@ -1,0 +1,19 @@
+{
+  "name": "place",
+  "version": "1.0.0",
+  "main": "place.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "JSON": "^1.0.0",
+    "redis": "^3.0.2",
+    "ws": "^6.2.2"
+  },
+  "description": "server code for r/place",
+  "devDependencies": {}
+}

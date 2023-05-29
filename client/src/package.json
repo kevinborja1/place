@@ -1,0 +1,11 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "client for r/place",
+  "scripts": {
+    "build": "parcel build index.html",
+    "deploy": "serve -s build"
+  },
+  "author": "",
+  "license": "ISC"
+}

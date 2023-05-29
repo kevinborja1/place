@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script is used to build the client and upload it to the S3 bucket
+cd src
+rm -r dist &&
+npm run build &&
+aws s3 sync dist/ s3://kborjabucket/

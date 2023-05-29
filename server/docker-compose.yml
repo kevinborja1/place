@@ -1,0 +1,13 @@
+version: '3.4'
+services:
+  server:
+    image: place
+    deploy:
+      replicas: 1 
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints: [node.role == manager]
+    ports:
+      - "8080:8080"
+      - "8081:8081"
